@@ -1,7 +1,7 @@
 import baostock as bs
 import pandas as pd
 import fileinput
-i=1
+i=1    
 with fileinput.input(files=('c:\code.EBK')) as f:
     for line in f:
         print(i)
