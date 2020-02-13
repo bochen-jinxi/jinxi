@@ -1,0 +1,25 @@
+USE [stock]
+GO
+/****** Object:  Table [dbo].[StockHolder]    Script Date: 2019/5/17 16:12:13 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[StockHolder](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[Code] [nvarchar](10) NOT NULL,
+	[OrderID] [int] NULL,
+	[HolderName] [nvarchar](50) NULL,
+	[HolderName1] [nvarchar](50) NULL,
+	[HolderName2] [nvarchar](50) NULL,
+	[HolderName3] [nvarchar](50) NULL,
+	[HolderName4] [nvarchar](50) NULL,
+	[HolderName5] [nvarchar](50) NULL,
+	[HolderName10] [nvarchar](50) NULL,
+	[HolderName20] [nvarchar](50) NULL,
+	[HolderName30] [nvarchar](50) NULL,
+	[HolderName40] [nvarchar](50) NULL,
+	[HolderName50] [nvarchar](50) NULL
+) ON [PRIMARY]
+
+GO
